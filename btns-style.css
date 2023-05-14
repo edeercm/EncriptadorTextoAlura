@@ -1,0 +1,156 @@
+/* BOTONES- SOCIAL MEDIA */
+
+.social-links,.flex-center {
+    display: flex;
+    /* justify-content: right; */
+    align-items: center;
+    margin-top: 0.7em;
+}
+
+.social-btn {
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+    font-family: 'Titillium Web', sans-serif;
+    color: #FFFBFE;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 10px rgba(0,0,0,0.15); */
+    background: #11151C;
+    margin: 5px;
+    transition: 0.3s;
+    justify-content: center;
+}
+  
+.social-btn svg {
+    height: 20px;
+    width: 20px;
+}
+  
+.social-btn span {
+    width: 0px;
+    overflow: hidden;
+    transition: 0.3s;
+    text-align: center;
+    margin-left: 1px;
+}
+  
+.social-btn:hover {
+    width: 150px;
+    border-radius: 5px;
+}
+  
+.social-btn:hover span {
+    padding: 2px;
+    width: 80px;
+}
+    
+#linkedin svg {
+    fill: #FFFBFE;
+}
+  
+#github {
+    fill: #FFFBFE;
+}
+
+/* BOTONES - ENCRYPt/DECRYPt/COPY */
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+.btn-encriptar {
+    --primary-color: #1C0F0F;
+    --secondary-color: #FFFBE9;
+    --hover-color: #1E1F55;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 3.5px;
+    color: var(--secondary-color);
+    padding: 0.8em 2em;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.4s background;
+    align-items: center;
+    gap: 0.9em;
+    font-weight: 650;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+  
+.btn-encriptar:hover {
+    background-color: var(--hover-color);
+    transform: scale(1.09);
+}
+
+.btn-desencriptar {
+    --primary-color: #1C0F0F;
+    --secondary-color: #FFFBE9;
+    --hover-color: #1E1F55;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 3.5px;
+    color: var(--secondary-color);
+    padding: 0.8em 2.5em;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.4s background;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: 650;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+  
+.btn-desencriptar:hover {
+    background-color: var(--hover-color);
+    transform: scale(1.09);
+}
+
+.btn-copiar {
+    --primary-color: #850A0A;
+    --secondary-color: #FDFFFC;
+    --hover-color: #1C0F0F;
+    --arrow-width: 10px;
+    --arrow-stroke: 2px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 3.5px;
+    color: var(--secondary-color);
+    padding: 0.8em 2.70em;
+    background: var(--primary-color);
+    display: flex;
+    transition: 0.4s background;
+    align-items: center;
+    gap: 0.6em;
+    font-weight: 650;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: all 0.25s;
+}
+  
+.btn-copiar:hover {
+    background-color: var(--hover-color);
+    transform: scale(1.09);
+}
+
+
+@media screen and (max-width: 430px) {
+
+    .social-btn:hover {
+        width: 41.25px;
+    }
+
+    .social-links span {
+        display: none;
+   }
+
+}
+

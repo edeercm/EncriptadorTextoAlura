@@ -1,4 +1,4 @@
-#  Alura Sprint 01: Encriptador de Texto - ONE (Oracle Next Education)
+#  Text Encrypter
 
 https://edeercm.github.io/EncriptadorDeTextoAlura/
 
